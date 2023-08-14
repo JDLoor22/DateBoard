@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="date">
+          <p id="date"></p>
+        </div>
+        <div class="day-name">
+          <p class="day" id="day"></p>
+        </div>
+        <div class="clock grid--4-col">
+          <div class="clock-col">
+            <p id="hours"></p>
+            <p class="clock-label">Hours</p>
+          </div>
+          <div class="clock-col">
+            <p id="minutes"></p>
+            <p class="clock-label">Minutes</p>
+          </div>
+          <div class="clock-col">
+            <p id="seconds"></p>
+            <p class="clock-label">Seconds</p>
+          </div>
+          <div class="clock-col session">
+            <p id="session"></p>
+          </div>
+        </div>
+        <br>
+        <div class="container--btn el">
+            <button id="toggle-btn">12-hr / 24-hr</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
